@@ -1,1 +1,3 @@
-Practica 1
+# Práctica 1: Detector de números primos
+
+
