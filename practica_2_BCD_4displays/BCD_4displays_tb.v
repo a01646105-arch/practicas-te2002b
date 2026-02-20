@@ -29,7 +29,7 @@ initial
 
 initial
     begin
-        $monitor("Num = %d, BCD_unidad = %b, BCD_decena = %b, BCD_centena = %b, BCD_millar = %b", bcd_in, D_un, D_de, D_ce, D_mi);
+        $monitor("Num = %d, Num_bin = %b, BCD_un = %b, BCD_de = %b, BCD_ce = %b, BCD_mi = %b", bcd_in, bcd_in, D_un, D_de, D_ce, D_mi);
     end
 
 // Visualización de ondas de la simulacion con oss-cad-suite
