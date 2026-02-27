@@ -61,6 +61,6 @@ Las asignaciones de pines se realizaron con *Pin Planner* de Quartus. Los pines 
 Al ingresar un número binario con los switches de la FPGA DE-10 Lite, su valor decimal aparece correctamente en los cuatro displays de 7 segmentos
 
 ## Demostración con FPGA DE-10 Lite
-[![Demostración de la implementación](https://img.youtube.com/vi/OLUBPJAp_-g/0.jpg)](https://www.youtube.com/watch?v=OLUBPJAp_-g)
+[![Demostración de la implementación](https://img.youtube.com/vi/PVVUiqi50cw/0.jpg)](https://www.youtube.com/watch?v=PVVUiqi50cw)
 
 (Haz clic en la imagen para ver el video)
