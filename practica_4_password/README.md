@@ -37,7 +37,7 @@ Este modulo:
 - Genera una visualización de onda en ModelSim
 
 ### Visualización RTL Viewer:
-![RTL Viewer](imagenes/password_rtl.png)
+![RTL Viewer](imagenes/password_rtl_viewer.png)
 
 ### Visualización de onda:
 ![Waveform Simulation](imagenes/password_wave.png)
