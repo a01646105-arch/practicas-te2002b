@@ -74,26 +74,26 @@ El archivo _wrap_ conecta todo el diseño con la tarjeta DE-10 Lite:
 Las asignaciones de pines se realizaron con *Pin Planner* de Quartus. Los pines se mapean automáticamente mediante un archivo de mapeo `.tcl` para la tarjeta DE-10 Lite.
 
 ## Conceptos aplicados
-- Instanciacion de modulos
+- Instanciación de módulos
 - Conversión de binario a dígitos decimales
 - Asignación de pines en FPGA
-- Protocólo de comunicación serial UART
+- Protocolo de comunicación serial UART
 - Parametrización de *baud rate*
 - Diseño de lógica asíncrona
 - Integración de lógica digital con hardware real
 
 ## Resultado final
-Al ingresar un número binario con los switches de la primera FPGA, se comienzan a mandar cada bit del dato a otra tarjeta de recepción. La segunda FPGA interpreta los datos y los refleja con 3 de las pantallas de 7 segmentos.
+Al ingresar un número binario con los switches de la primera FPGA, se comienza a mandar cada bit del dato a otra tarjeta de recepción. La segunda FPGA interpreta los datos y los refleja en 3 de las pantallas de 7 segmentos.
 
 ## Demostración con FPGA DE-10 Lite
 
 ### Ingreso de los valores:
 ![Demostración de la implementación 1](imagenes/imagen1.png)
 
-### Verificación de envio:
+### Verificación de envío:
 ![Demostración de la implementación 2](imagenes/imagen2.png)
 
-### Verificación de envio:
+### Recepción de dato:
 ![Demostración de la implementación 3](imagenes/imagen3.png)
 
 
