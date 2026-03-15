@@ -59,10 +59,10 @@ Este modulo:
 ### Visualización de onda:
 ![Waveform Simulation](imagenes/UART_wave.png)
 
-## Resultados en la terminal:
+### Resultados en la terminal:
 ![Terminal output](imagenes/UART_terminal.png)
 
-## 7) Modulo Top-Level (Wrap) para Tx y Rx
+## 7) Módulo Top-Level (Wrap) para Tx y Rx
 El archivo _wrap_ conecta todo el diseño con la tarjeta DE-10 Lite:
 - Clock: Relój de la tarjeta FPGA (50 MHz)
 - Key: Uso de ambos botónes en la DE-10 Lite
