@@ -1,4 +1,4 @@
-# Práctica #3: Display de contador 
+# Práctica #7: Interfaz VGA
 
 ## Descripción del proyecto
 Este proyecto implementa un sistema de imágen con puerto VGA, utilizando **Verilog HDL** en **Quartus Prime**, ejecutándose en la tarjeta **DE-10 Lite**.

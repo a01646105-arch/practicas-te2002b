@@ -1,4 +1,4 @@
-# Práctica #3: Display de contador 
+# Práctica #6: Protocolo de comunicación serial UART
 
 ## Descripción del proyecto
 Este proyecto implementa un sistema FSM, UART y 4 displays de 7 segmentos, utilizando **Verilog HDL** en **Quartus Prime**, ejecutándose en la tarjeta **DE-10 Lite**.
