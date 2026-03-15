@@ -1,8 +1,8 @@
 module counter #(parameter CMAX = 100)(
     input CLK, RST,
-	 input [7:0] data_in,
-	 input load,
-	 input up_down,
+	input [7:0] data_in,
+	input load,
+	input up_down,
     output reg [6:0] count
 );
 

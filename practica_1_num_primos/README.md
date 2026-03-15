@@ -21,7 +21,7 @@ Este módulo:
 El **testbench** permite ejecutar una simulación del sistema en **ModelSim** para verificar que las salidas sean correctas.
 
 Este modulo:
-- Prueba los dieciséis entradas posibles
+- Prueba las dieciséis entradas posibles
 - Regresa la señal digital para el LED por cada caso
 - Genera una visualización de onda en ModelSim
 
