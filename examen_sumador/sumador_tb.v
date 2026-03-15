@@ -28,9 +28,25 @@ end
 always #10 clk <= ~clk;
 
 initial begin
-    $display("Simulacion iniciada.")
+    $display("Simulacion iniciada.");
+    #30;
+    rst <= 1;     // Activar reset para forzar condiciones iniciales
+    #10;
+    rst <= 0;     // Desactivar reset
+    #110;       // Demora para estabilizar sistema (5 1/2 ciclos de reloj)
     
+    sw_in <= $random % 17;   // Asignamos valor entre 0 y 16 (ambos incluidos)
+    start <= 1;             // Señal debe permanecer encendida
+    #320;                 // Demora para verificar resultados de suma (16 ciclos)
+    $display("Simulacion terminada.");
+
+    $stop;
+    $finish;
 end
 
+initial begin
+    $dumpfile("sumador_tb.vcd");
+    $dumpvars(0, sumador_tb);
+end
 
 endmodule

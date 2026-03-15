@@ -1,0 +1,30 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Sun Mar 15 00:40:55 2026
+[*]
+[dumpfile] "/Users/ricky/Documents/GitHub/practicas-te2002b/examen_sumador/sumador_tb.vcd"
+[dumpfile_mtime] "Sun Mar 15 00:37:19 2026"
+[dumpfile_size] 3247
+[savefile] "/Users/ricky/Documents/GitHub/practicas-te2002b/examen_sumador/sumador_tb.gtkw"
+[timestart] 0
+[size] 1440 842
+[pos] -1 -1
+*-16.452738 289700 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] sumador_tb.
+[treeopen] sumador_tb.DUT.
+[sst_width] 253
+[signals_width] 111
+[sst_expanded] 1
+[sst_vpaned_height] 243
+@28
+sumador_tb.clk
+sumador_tb.rst
+sumador_tb.start
+@22
+sumador_tb.sw_in[3:0]
+@24
+sumador_tb.DUT.sum[7:0]
+@25
+sumador_tb.DUT.get_sum.count[3:0]
+[pattern_trace] 1
+[pattern_trace] 0
